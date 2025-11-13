@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Find Window",
+  "version": "0.0.1",
+  "description": "Opens a simple input window. No search logic.",
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "commands": {
+    "toggle-window": {
+      "suggested_key": { "default": "Ctrl+Shift+F" },
+      "description": "Open/close the simple window"
+    }
+  }
+}
