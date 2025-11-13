@@ -22,9 +22,9 @@ It allows multiple search panels to open at once, letting you highlight and sear
 - Use the ➕ button to open additional panels for multiple simultaneous searches.
 
 ## Project Structure
-├── background.js # Handles extension lifecycle and messaging
-├── content.js # Injects UI and manages search highlights
-├── manifest.json # Chrome extension configuration
+├── background.js # Handles extension lifecycle and messaging<br>
+├── content.js # Injects UI and manages search highlights<br>
+├── manifest.json # Chrome extension configuration<br>
 
 ## License
 MIT License
